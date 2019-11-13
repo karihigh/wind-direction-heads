@@ -1,0 +1,83 @@
+/*
+  Styles from this codepen:
+  https://codepen.io/official_naveen/pen/rgknI
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap');
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    font-family:'Roboto Mono', monospace;
+    background: #93e0e1;
+  }
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .answer {
+    column-count: 2;
+    column-gap: 40px;
+    margin-top: 80px;
+  }
+  fieldset {
+    display: block;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0em;
+    -webkit-padding-start: 0em;
+    -webkit-padding-end: 0em;
+    -webkit-padding-after: 0em;
+    border: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    min-width: -webkit-min-content;
+    padding: 30px;
+  }
+
+  .img-circle {
+    width: 100%; 
+    height:auto;
+  }
+
+  .ghost-input {
+    display: block;
+    font-weight:300;
+    width: 100%;
+    font-size: 25px;
+    border:2px solid black;
+    outline: none;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #000000;
+    background: #fff;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px 15px;
+    margin: 40px 0px;
+
+  }
+
+  .ghost-button {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    padding:10px 30px;
+    width: 50%;
+    min-width: 350px;
+    
+  }
+
+  .weather-txt {
+    color: #000000;
+    font-family: 'Homemade Apple';
+    font-size: 44px;
+    letter-spacing: 3px;
+  }
